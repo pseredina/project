@@ -6,8 +6,8 @@ fileID = fopen('Integral.txt','w');
 fprintf(fileID,'%10s|%10s|%10s|%10s|%26s\n','a', 'b', 'limit1', 'limit2', 'result');
 
 %Выбираем a, b
-a= 4%randi([1,10],1);
-b=7%randi([1,10],1);
+a = randi([1,10],1);
+b = randi([1,10],1);
 
 %Вычисление неопределенного интеграла
 syms x
